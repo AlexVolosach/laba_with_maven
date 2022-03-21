@@ -9,8 +9,8 @@
         "REVIEW:",
         {
             "text": "NOTE:",
-            "color": "#ff0000",
-            "backgroundColor": "yellow",
+            "color": "#735f5e",
+            "backgroundColor": "blue",
             "overviewRulerColor": "green"
         },
         {
@@ -27,15 +27,15 @@
             //other styling properties goes here ... 
         }
     ],
-    "todohighlight.keywordsPattern": "TODO:|FIXME:|\\(([^)]+)\\)", //highlight `TODO:`,`FIXME:` or content between parentheses
+    "todohighlight.keywordsPattern": "TODO:|FIXME:|ps", //highlight `TODO:`,`FIXME:` or content between parentheses
     "todohighlight.defaultStyle": {
         "color": "red",
-        "backgroundColor": "#ffab00",
+        "backgroundColor": "#ba4a45",
         "overviewRulerColor": "#ffab00",
         "cursor": "pointer",
         "border": "1px solid #eee",
         "borderRadius": "2px",
-        "isWholeLine": true,
+        "isWholeLine": false,
         //other styling properties goes here ... 
     },
     "todohighlight.include": [
