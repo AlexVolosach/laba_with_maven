@@ -4,6 +4,22 @@
     {
         "key": "alt+`",
         "command": "todohighlight.toggleHighlight"
+    },
+    {
+        "key": "ctrl+numpad2",
+        "command": "java.formatterSettings"
+    },
+    {
+        "key": "ctrl+numpad6",
+        "command": "editor.action.insertSnippet"
+    },
+    {
+        "key": "ctrl+numpad9",
+        "command": "workbench.action.configureLocale"
+    },
+    {
+        "key": "ctrl+numpad5",
+        "command": "workbench.action.openSnippets"
     }
 ]
 
