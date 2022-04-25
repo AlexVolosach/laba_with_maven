@@ -12,6 +12,36 @@
     <url>http://stokito.blogspot.com/2013/02/blog-post_27.html</url>
     <inceptionYear>2013</inceptionYear>
 
+    <build>
+      <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                      <archive>
+                        <manifest>
+                            <mainClass>
+                                com.github.stokito.unitTestExample.calculator.Calculator
+                            </mainClass>
+                        </manifest>
+                      </archive>
+                      <descriptorRefs>
+                            <descriptorRef>jar-with-dependencies</descriptorRef>
+                      </descriptorRefs>
+                </configuration>
+          </plugin>
+        
+      </plugins>
+    </build>
+
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>

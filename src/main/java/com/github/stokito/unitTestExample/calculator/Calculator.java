@@ -17,5 +17,11 @@ public class Calculator {
 	public int multiply(int a, int b) {
 		return a * b;//ps
 	}
-
+	public static void main(String[] args) {
+		
+			
+			System.out.println("Hello, my dear friend!");
+		
+		
+	}
 }
